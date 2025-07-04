@@ -13,7 +13,7 @@ A microservice that allows users to manage their digital wallets: create wallets
 
 ## Tech Stack
 
-* Java 17
+* Java 21
 * Spring Boot 3
 * PostgreSQL
 * Spring Data JPA
@@ -34,7 +34,7 @@ src/main/java/com/recargapay/wallet/
 
 ## Requirements
 
-* Java 17+
+* Java 21+
 * Maven 3.8+
 * PostgreSQL running locally (default: walletdb, user: postgres, password: password)
 

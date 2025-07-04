@@ -36,11 +36,6 @@
             <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
             <version>2.8.9</version>
         </dependency>
-        <!--        <dependency>-->
-        <!--            <groupId>com.github.piomin</groupId>-->
-        <!--            <artifactId>loki-logging-spring-boot-starter</artifactId>-->
-        <!--            <version>2.0.2-SNAPSHOT</version>-->
-        <!--        </dependency>-->
         <dependency>
             <groupId>com.github.loki4j</groupId>
             <artifactId>loki-logback-appender</artifactId>
@@ -106,20 +101,7 @@
                         </configuration>
                     </execution>
                 </executions>
-                <!--                enable for podman-->
-                <!--                <configuration>-->
-                <!--                    <docker>-->
-                <!--                        <host>unix:///var/folders/fz/26xv826j79s_x1wn194k6vn00000gn/T/podman/podman-machine-default-api.sock</host>-->
-                <!--                    </docker>-->
-                <!--                </configuration>-->
             </plugin>
-<!--            <plugin>-->
-<!--                <groupId>pl.project13.maven</groupId>-->
-<!--                <artifactId>git-commit-id-plugin</artifactId>-->
-<!--                <configuration>-->
-<!--                    <failOnNoGitDirectory>false</failOnNoGitDirectory>-->
-<!--                </configuration>-->
-<!--            </plugin>-->
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
